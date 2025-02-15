@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Job Prostuti Admin</string>
+    <string name="app_name">SSC Board Book Admin</string>
 
     <string name="add_to_indian_bangla_serial">Add to Firestore Database</string>
     <string name="add_to_indian_bangla_serial_realtime">Add to Realtime Database</string>
