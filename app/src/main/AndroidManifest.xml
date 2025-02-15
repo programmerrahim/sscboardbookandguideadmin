@@ -12,57 +12,38 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
             android:name=".RealtimteAddActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".primary.PrimaryModelTestActivity"
-            android:exported="false" />
-        <activity
-            android:name=".primary.PrimaryPracticeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bcs.BcsModelTestActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+
         <activity
             android:name=".GuideBookActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bcs.BcsQbankActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+
         <activity
             android:name=".BoardBookActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bcs.BcsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".primary.PrimaryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".bcs.BcsAddActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme"
+            />
+
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-        <activity
-            android:name=".SerialAddRealTimeActivity"
-            android:exported="false" />
+
         <activity
             android:name=".HandNoteActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
         <activity
             android:name=".SplashActivity"
-            android:exported="true"
-            android:theme="@style/NoTheme">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

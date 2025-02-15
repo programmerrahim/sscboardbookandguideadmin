@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SSC Board Book Admin</string>
+    <string name="app_name">Job Prostuti Admin</string>
 
     <string name="add_to_indian_bangla_serial">Add to Firestore Database</string>
     <string name="add_to_indian_bangla_serial_realtime">Add to Realtime Database</string>
@@ -7,4 +7,6 @@
     <string name="enter_serial_name">Enter Name</string>
     <string name="add">Add</string>
     <string name="bangla_serial_and_natok_admin">Bangla Serial \n and \n Natok Admin</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
 </resources>
