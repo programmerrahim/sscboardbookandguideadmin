@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "450639175072",
+    "firebase_url": "https://job-prostuti-default-rtdb.firebaseio.com",
+    "project_id": "job-prostuti",
+    "storage_bucket": "job-prostuti.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450639175072:android:42445fb9df8fa81789d8c5",
+        "android_client_info": {
+          "package_name": "com.ruksana.jobprostuti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Bh_5B1jEvYn1X0wIxMVmTBExPnLYm48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450639175072:android:929ff331c212ebab89d8c5",
+        "android_client_info": {
+          "package_name": "com.ruksana.jobprostutiadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Bh_5B1jEvYn1X0wIxMVmTBExPnLYm48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

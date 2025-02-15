@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RealtimteAddActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Upload Your Questions"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/material_1" />
+
+        <View
+            android:id="@+id/viewId"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/material_1" />
+
+
+        <EditText
+            android:id="@+id/addNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="name"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_orange_light" />
+
+        <EditText
+            android:id="@+id/addModelTestNumberId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Model Test Number"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_orange_light" />
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/addButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_round_button"
+            android:gravity="center"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
